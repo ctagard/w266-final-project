@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "w266-final-project"
+version = "0.1.0"
+description = "Finetuning codellama to understand machine learning tasks more effectively"
+authors = ["ctagard <ctagard19@gmail.com>"]
+readme = "README.md"
+packages = [{include = "w266_final_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.0.7"
+kaggle = "^1.5.16"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
