@@ -1,0 +1,4 @@
+pandas~=2.1.2
+kaggle~=1.5.16
+nbformat~=5.9.2
+beautifulsoup4~=4.12.2
